@@ -37,6 +37,24 @@
             <button type="submit" class="btn">Search</button>
         </form>
 
+        <div id="filterSortSection" class="filter-sort" style="display: none;">
+            <label for="destinationFilter">Filter by Destination:</label>
+            <select id="destinationFilter" class="form-input-inline">
+                <option value="all">All Destinations</option>
+                <option value="JFK">New York (JFK)</option>
+                <option value="LAX">Los Angeles (LAX)</option>
+                <option value="LHR">London (LHR)</option>
+                <option value="NRT">Tokyo (NRT)</option>
+                <option value="SYD">Sydney (SYD)</option>
+            </select>
+
+            <label for="sortResults">Sort by:</label>
+            <select id="sortResults" class="form-input-inline">
+                <option value="score">Trip Score</option>
+                <option value="totalCost">Total Cost</option>
+            </select>
+        </div>
+
         <div id="results" class="results"></div>
     </div>
 

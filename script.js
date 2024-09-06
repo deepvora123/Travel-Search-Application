@@ -2,6 +2,8 @@ let flights = [];
 let hotels = [];
 let flightCache = new Map();
 let hotelCache = new Map();
+let allTrips = [];
+let currentlyDisplayedTrips = 0;
 
 async function loadJSONData() {
     const flightsResponse = await fetch('flights.json');
@@ -93,11 +95,8 @@ function findBestTrips(origin, nights, budget) {
         }
     }
 
-    return allTrips.sort((a, b) => b.score - a.score);
+    return allTrips;
 }
-
-let allTrips = [];
-let currentlyDisplayedTrips = 0;
 
 function displayResults(trips, startIndex = 0, count = 10) {
     const resultsDiv = document.getElementById('results');
@@ -141,6 +140,27 @@ function displayResults(trips, startIndex = 0, count = 10) {
     }
 
     seeMoreButton.style.display = currentlyDisplayedTrips < trips.length ? 'block' : 'none';
+
+    document.getElementById('filterSortSection').style.display = 'block';
+}
+
+function filterAndSortTrips() {
+    const destinationFilter = document.getElementById('destinationFilter').value;
+    const sortType = document.getElementById('sortResults').value;
+
+    let filteredTrips = allTrips;
+
+    if (destinationFilter !== 'all') {
+        filteredTrips = filteredTrips.filter(trip => trip.destination === destinationFilter);
+    }
+
+    if (sortType === 'score') {
+        filteredTrips.sort((a, b) => b.score - a.score);
+    } else if (sortType === 'totalCost') {
+        filteredTrips.sort((a, b) => a.totalCost - b.totalCost);
+    }
+
+    displayResults(filteredTrips);
 }
 
 document.getElementById('searchForm').addEventListener('submit', function(e) {
@@ -151,5 +171,8 @@ document.getElementById('searchForm').addEventListener('submit', function(e) {
     allTrips = findBestTrips(origin, nights, budget);
     displayResults(allTrips);
 });
+
+document.getElementById('destinationFilter').addEventListener('change', filterAndSortTrips);
+document.getElementById('sortResults').addEventListener('change', filterAndSortTrips);
 
 loadJSONData();

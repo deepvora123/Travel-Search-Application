@@ -52,6 +52,27 @@ h1 {
   box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
 }
 
+.form-input-inline {
+  margin-left: -5px;
+  margin-right: 20px;
+  padding: 5px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.filter-sort {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 20px 0;
+}
+
+.filter-sort label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
 .btn {
   background-color: #3498db;
   color: white;
@@ -96,5 +117,14 @@ h1 {
 
   .btn {
       grid-column: 1;
+  }
+
+  .filter-sort {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .form-input-inline {
+      margin: 10px 0;
   }
 }
