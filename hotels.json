@@ -1,0 +1,202 @@
+[
+  {
+    "name": "Grand Hotel",
+    "address": "123 Main Street, New York City, USA",
+    "stars": 4,
+    "rating": 8.2,
+    "amenities": ["Free Wi-Fi", "Swimming pool", "Fitness center", "Restaurant", "Bar", "Room service"],
+    "price_per_night": 150
+  },
+  {
+    "name": "City View Inn",
+    "address": "456 Broadway, New York City, USA",
+    "stars": 3,
+    "rating": 7.5,
+    "amenities": ["Free Wi-Fi", "Breakfast included", "Business center"],
+    "price_per_night": 120
+  },
+  {
+    "name": "The Metropolitan",
+    "address": "789 5th Avenue, New York City, USA",
+    "stars": 5,
+    "rating": 9.0,
+    "amenities": ["Free Wi-Fi", "Swimming pool", "Spa", "Restaurant", "Bar", "Room service"],
+    "price_per_night": 200
+  },
+  {
+    "name": "The Urban Haven",
+    "address": "111 Canal Street, New York City, USA",
+    "stars": 4,
+    "rating": 8.8,
+    "amenities": ["Free Wi-Fi", "Gym", "Restaurant", "Bar"],
+    "price_per_night": 180
+  },
+  {
+    "name": "The Central Plaza",
+    "address": "222 Park Avenue, New York City, USA",
+    "stars": 3,
+    "rating": 7.8,
+    "amenities": ["Free Wi-Fi", "Breakfast included"],
+    "price_per_night": 130
+  },
+  {
+    "name": "Grand Hotel",
+    "address": "123 Main Street, London, UK",
+    "stars": 4,
+    "rating": 8.2,
+    "amenities": ["Free Wi-Fi", "Swimming pool", "Fitness center", "Restaurant", "Bar", "Room service"],
+    "price_per_night": 150
+  },
+  {
+    "name": "City View Inn",
+    "address": "456 Broadway, London, UK",
+    "stars": 3,
+    "rating": 7.5,
+    "amenities": ["Free Wi-Fi", "Breakfast included", "Business center"],
+    "price_per_night": 120
+  },
+  {
+    "name": "The Metropolitan",
+    "address": "789 5th Avenue, London, UK",
+    "stars": 5,
+    "rating": 9.0,
+    "amenities": ["Free Wi-Fi", "Swimming pool", "Spa", "Restaurant", "Bar", "Room service"],
+    "price_per_night": 200
+  },
+  {
+    "name": "The Urban Haven",
+    "address": "111 Canal Street, London, UK",
+    "stars": 4,
+    "rating": 8.8,
+    "amenities": ["Free Wi-Fi", "Gym", "Restaurant", "Bar"],
+    "price_per_night": 180
+  },
+  {
+    "name": "The Central Plaza",
+    "address": "222 Park Avenue, London, UK",
+    "stars": 3,
+    "rating": 7.8,
+    "amenities": ["Free Wi-Fi", "Breakfast included"],
+    "price_per_night": 130
+  },
+  {
+    "name": "Grand Hotel",
+    "address": "123 Main Street, Tokyo, Japan",
+    "stars": 4,
+    "rating": 8.2,
+    "amenities": ["Free Wi-Fi", "Swimming pool", "Fitness center", "Restaurant", "Bar", "Room service"],
+    "price_per_night": 150
+  },
+  {
+    "name": "City View Inn",
+    "address": "456 Broadway, Tokyo, Japan",
+    "stars": 3,
+    "rating": 7.5,
+    "amenities": ["Free Wi-Fi", "Breakfast included", "Business center"],
+    "price_per_night": 120
+  },
+  {
+    "name": "The Metropolitan",
+    "address": "789 5th Avenue, Tokyo, Japan",
+    "stars": 5,
+    "rating": 9.0,
+    "amenities": ["Free Wi-Fi", "Swimming pool", "Spa", "Restaurant", "Bar", "Room service"],
+    "price_per_night": 200
+  },
+  {
+    "name": "The Urban Haven",
+    "address": "111 Canal Street, Tokyo, Japan",
+    "stars": 4,
+    "rating": 8.8,
+    "amenities": ["Free Wi-Fi", "Gym", "Restaurant", "Bar"],
+    "price_per_night": 180
+  },
+  {
+    "name": "The Central Plaza",
+    "address": "222 Park Avenue, Tokyo, Japan",
+    "stars": 3,
+    "rating": 7.8,
+    "amenities": ["Free Wi-Fi", "Breakfast included"],
+    "price_per_night": 130
+  },
+  {
+    "name": "Grand Hotel",
+    "address": "123 Main Street, Sydney, AUS",
+    "stars": 4,
+    "rating": 8.2,
+    "amenities": ["Free Wi-Fi", "Swimming pool", "Fitness center", "Restaurant", "Bar", "Room service"],
+    "price_per_night": 150
+  },
+  {
+    "name": "City View Inn",
+    "address": "456 Broadway, Sydney, AUS",
+    "stars": 3,
+    "rating": 7.5,
+    "amenities": ["Free Wi-Fi", "Breakfast included", "Business center"],
+    "price_per_night": 120
+  },
+  {
+    "name": "The Metropolitan",
+    "address": "789 5th Avenue, Sydney, AUS",
+    "stars": 5,
+    "rating": 9.0,
+    "amenities": ["Free Wi-Fi", "Swimming pool", "Spa", "Restaurant", "Bar", "Room service"],
+    "price_per_night": 200
+  },
+  {
+    "name": "The Urban Haven",
+    "address": "111 Canal Street, Sydney, AUS",
+    "stars": 4,
+    "rating": 8.8,
+    "amenities": ["Free Wi-Fi", "Gym", "Restaurant", "Bar"],
+    "price_per_night": 180
+  },
+  {
+    "name": "The Central Plaza",
+    "address": "222 Park Avenue, Sydney, AUS",
+    "stars": 3,
+    "rating": 7.8,
+    "amenities": ["Free Wi-Fi", "Breakfast included"],
+    "price_per_night": 130
+  },
+  {
+    "name": "Pacific Palms Resort",
+    "address": "123 Sunset Blvd, Los Angeles, USA",
+    "stars": 5,
+    "rating": 9.2,
+    "amenities": ["Free Wi-Fi", "Swimming pool", "Spa", "Golf course", "Restaurant", "Bar"],
+    "price_per_night": 350
+  },
+  {
+    "name": "Oceanfront Suites",
+    "address": "456 Beach Road, Los Angeles, USA",
+    "stars": 4,
+    "rating": 8.5,
+    "amenities": ["Free Wi-Fi", "Beach access", "Swimming pool", "Fitness center", "Bar"],
+    "price_per_night": 250
+  },
+  {
+    "name": "Hollywood Inn",
+    "address": "789 Hollywood Blvd, Los Angeles, USA",
+    "stars": 3,
+    "rating": 7.0,
+    "amenities": ["Free Wi-Fi", "Breakfast included", "Tour desk"],
+    "price_per_night": 100
+  },
+  {
+    "name": "Downtown LA Hotel",
+    "address": "111 Broadway, Los Angeles, USA",
+    "stars": 4,
+    "rating": 8.1,
+    "amenities": ["Free Wi-Fi", "Gym", "Restaurant", "Bar"],
+    "price_per_night": 200
+  },
+  {
+    "name": "The Luxe LA",
+    "address": "222 West Street, Los Angeles, USA",
+    "stars": 5,
+    "rating": 9.0,
+    "amenities": ["Free Wi-Fi", "Spa", "Pool", "Restaurant", "Bar"],
+    "price_per_night": 320
+  }
+]
