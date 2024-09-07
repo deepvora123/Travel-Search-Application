@@ -95,6 +95,8 @@ function findBestTrips(origin, nights, budget) {
         }
     }
 
+    allTrips.sort((a, b) => b.score - a.score);
+    
     return allTrips;
 }
 
